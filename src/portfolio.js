@@ -4,22 +4,23 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Mehraj Dalvi | Portfolio",
   description:
-    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
+    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX and Software ",
   og: {
-    title: "Rohan Portfolio",
+    title: "Mehraj Portfolio",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
-  resumeLink: "",
+  title: "Hii!",
+  sub: "Mehraj Dalvi",
+  logo_name: "Mehraj Dalvi",
+  resumeLink:
+    "https://drive.google.com/file/d/1zC917P-Va45YA32_fL2PhKf1K8P5t6U3/view",
 };
 
 // home logos
@@ -31,39 +32,16 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/rohankokkula",
+      profileLink: "https://github.com/mehrajdalvi16",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/rohan0301",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
-    },
+
     {
       siteName: "LinkedIn",
       iconifyClassname: "simple-icons:linkedin",
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/rohankokkula/",
+      profileLink: "https://www.linkedin.com/in/mehraj-dalvi-920804254",
     },
     {
       siteName: "HashNode",
@@ -83,10 +61,10 @@ const skills = {
       title: "Data Science & Analysis",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
-        "⚡ Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-        "⚡ Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+        "⚡ Learning to develop models for deep learning and statistical use cases",
+        "⚡ Gaining experience with Computer Vision using OpenCV and NLP projects",
+        "⚡ Developing skills in data cleaning, processing, and analysis with Pandas, Tableau, and PowerBI",
+        "⚡ Exploring text-to-speech technologies and voice cloning",
       ],
       softwareSkills: [
         {
@@ -452,48 +430,32 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Data Scientist",
-        subtitle: "Nactus India Services Private Limited",
-        date: "June 2020 - present",
+        title: "Data Analytics and Visualization Intern",
+        subtitle: "Accenture",
+        date: "April 2024 - May 2024",
         content: [
-          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
-          "Built an MCQ Generation model using BERT",
-          "Developed a personalized Chatbot using Rasa (Botfront.io).",
-          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
-          "Working on OpenAI's semantic search engine.",
-          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
-          "Created FrontEnd components for StudyShot website",
-          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+          "Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture",
+          "Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform strategic decisions",
+          "Prepared a PowerPoint deck and video presentation to communicate key insights for the client and internal stakeholders",
         ],
       },
       {
-        title: "Machine Learning Intern",
-        subtitle: "Listnr",
-        date: "April 2020 - June 2020",
+        title: "Solution Architecture Intern",
+        subtitle: "AWS",
+        date: "Dec 2023 - Jan 2024",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Described my proposed architecture in plain language ensuring my client understood how it works and how costs will be calculated for it",
+          "Designed and simple and scalable hosting architecture based on Elastic Beanstalk for a client experiencing significant growth and slow response time",
         ],
       },
       {
-        title: "Data Science Intern",
-        subtitle: "iNeuron.ai",
-        date: "Nov 2020 - January 2021",
+        title: "Software Engineering Intern",
+        subtitle: "J.P. Morgan Chase&Co",
+        date: "Dec 2023 - Jan 2024",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
-        ],
-      },
-      {
-        title: "Summer Analytics Participant",
-        subtitle: "IIT Guwahati",
-        date: "April 2020 - June 2020",
-        content: [
-          "Learnt & applied various Machine Learning libraries",
-          "Had hands-on with Data Visualization techniques using matplotlib, plotly, streamlit",
-          "Understood and applied Neural networks using Tensorflow and finally competed in Kaggle Hackathon ranking 135 (top 16 percentile) among 854 Kaggle participants",
-          "Ranked 85 out of 1500+ students for overall performance.",
+          "Set up a local dev environment by downloading the necessary files, tools and dependencies.",
+          "Fixed broken files in the repository to make web application output correctly.",
+          "Used JPMorgan Chase’s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor",
         ],
       },
     ],
@@ -506,39 +468,39 @@ const resumeright = {
       title: ["Education"],
       data: [
         {
-          title: "Bachelor of Engineering in Information Technology",
-          subtitle: "Vidyalankar Institute of Technology, Mumbai",
-          date: "2016 - 2020",
-          content: ["CGPA: 8.06/10"],
+          title: "Bachelor of Sciecne Speciality in Computer Science",
+          subtitle: "D.B.J College Chiplun, University Of Mumbai",
+          date: "2021 - 2024",
+          content: ["CGPA: __/10"],
         },
         {
           title: "Higher Secondary Certificate [HSC]",
-          subtitle: "Dr. Antonio Da Silva Technical Jr. College, Mumbai",
-          date: "2014 - 2016",
-          content: ["Precentage: 80%"],
+          subtitle: "D.B.J College Chiplun",
+          date: "2019 - 2021",
+          content: ["Precentage: 82.50%"],
         },
       ],
     },
-    {
-      title: ["Ranks and Achivements"],
-      data: [
-        {
-          title: "Ranks",
-          content: [
-            "#135/854 in Summer Analytics Kaggle Competition by IITG",
-            "#113/5064 in CV-NLP Hackathon by HackerEarth",
-          ],
-        },
-        {
-          title: "Achievements",
-          content: [
-            "Designing Team Head at ACM-VIT",
-            "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
-            "Tableau Analyst & Consumer Badge by Tableau Official",
-          ],
-        },
-      ],
-    },
+    // {
+    //   title: ["Ranks and Achivements"],
+    //   data: [
+    //     {
+    //       title: "Ranks",
+    //       content: [
+    //         "#135/854 in Summer Analytics Kaggle Competition by IITG",
+    //         "#113/5064 in CV-NLP Hackathon by HackerEarth",
+    //       ],
+    //     },
+    //     {
+    //       title: "Achievements",
+    //       content: [
+    //         "Designing Team Head at ACM-VIT",
+    //         "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
+    //         "Tableau Analyst & Consumer Badge by Tableau Official",
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       title: ["Freelance Work"],
       data: [
@@ -564,112 +526,112 @@ const resumeright = {
 //certificate cards
 const certifications = {
   certifications: [
-    {
-      title: "Tableau Analyst",
-      subtitle: "Tableau",
-      logo_path: "tabana-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Consumer",
-      subtitle: "Tableau",
-      logo_path: "tabcon-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
-    {
-      title: "Problem solving",
-      subtitle: "HackerRank",
-      logo_path: "problem-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Python",
-      subtitle: "HackerRank",
-      logo_path: "python-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Certificate of Merit",
-      subtitle: "Summer Analytics | IIT Guwahati",
-      logo_path: "iitg-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "IITG",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Desktop Qualified Associate",
-      subtitle: "SimpliLearn",
-      logo_path: "simplilearn-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Simplilearn",
-      color_code: "#000000",
-    },
-    {
-      title: "Question Generation using Transformers",
-      subtitle: "Udemy",
-      logo_path: "udemy-01.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
-      alt_name: "Udemy",
-      color_code: "#000000",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "Stanford University",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Visualization",
-      subtitle: "University of Michigan",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "University of Michigan",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Scientist Career Track",
-      subtitle: "DataCamp",
-      logo_path: "datacamp-01.png",
-      certificate_link:
-        "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
-      alt_name: "DataCamp",
-      color_code: "#000000",
-    },
-    {
-      title: "PowerBI Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "Tableau Analyst",
+    //   subtitle: "Tableau",
+    //   logo_path: "tabana-01.png",
+    //   certificate_link:
+    //     "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
+    //   alt_name: "Tableau",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Tableau Consumer",
+    //   subtitle: "Tableau",
+    //   logo_path: "tabcon-01.png",
+    //   certificate_link:
+    //     "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
+    //   alt_name: "Tableau",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Problem solving",
+    //   subtitle: "HackerRank",
+    //   logo_path: "problem-01.png",
+    //   certificate_link: "https://www.hackerrank.com/rohankokkula",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Python",
+    //   subtitle: "HackerRank",
+    //   logo_path: "python-01.png",
+    //   certificate_link: "https://www.hackerrank.com/rohankokkula",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Certificate of Merit",
+    //   subtitle: "Summer Analytics | IIT Guwahati",
+    //   logo_path: "iitg-01.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "IITG",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Tableau Desktop Qualified Associate",
+    //   subtitle: "SimpliLearn",
+    //   logo_path: "simplilearn-01.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "Simplilearn",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Question Generation using Transformers",
+    //   subtitle: "Udemy",
+    //   logo_path: "udemy-01.png",
+    //   certificate_link:
+    //     "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
+    //   alt_name: "Udemy",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "Stanford University",
+    //   logo_path: "coursera-01.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "Stanford University",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Data Visualization",
+    //   subtitle: "University of Michigan",
+    //   logo_path: "coursera-01.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "University of Michigan",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Data Scientist Career Track",
+    //   subtitle: "DataCamp",
+    //   logo_path: "datacamp-01.png",
+    //   certificate_link:
+    //     "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
+    //   alt_name: "DataCamp",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "PowerBI Masters",
+    //   subtitle: "iNeuron.ai",
+    //   logo_path: "ineuron-01.png",
+    //   certificate_link:
+    //     "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Tableau Masters",
+    //   subtitle: "iNeuron.ai",
+    //   logo_path: "ineuron-01.png",
+    //   certificate_link:
+    //     "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
   ],
 };
 
@@ -679,15 +641,15 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "contact.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Cloud and Opensource Development.",
+      "I am available . You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Cloud and Opensource Development.",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Prabhadevi, Mumbai-400025",
+    subtitle: "Mumbai,400070",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9022817659",
+    subtitle: "+91 8484064751",
   },
 };
 
@@ -695,35 +657,35 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/rohankokkula",
+    link: "https://github.com/mehrajdalvi16",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rohankokkula/",
+    link: "https://www.linkedin.com/in/mehraj-dalvi-920804254/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/c/rohanalytics",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/c/rohanalytics",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
-    link: "mailto:rohankokkula01@gmail.com",
+    link: "mailto:mehrajdalvi16@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/soberohan/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/soberohan/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 export {
